@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BogomolovMyFirstApp1.1</string>
+    <string name="b1">button1</string>
+    <string name="b2">button 2</string>
+    <string name="b3">button 3</string>
+    <string name="after_click">***</string>
+</resources>

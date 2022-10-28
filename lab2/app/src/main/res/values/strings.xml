@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BogomolovLab2</string>
+    <string name="button1">Add *</string>
+    <string name="button2">Copy text</string>
+</resources>
