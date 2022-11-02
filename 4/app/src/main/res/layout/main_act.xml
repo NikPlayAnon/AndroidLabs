@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+    android:id="@+id/editTextNumber"
+    android:inputType="number"
+    android:ems="10"
+        android:background="@drawable/button_outline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_margin="30sp"/>
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:inputType="number"
+        android:ems="10"
+        android:background="@drawable/button_outline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_margin="30sp"/>/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:height="100sp"
+        android:layout_margin="1dp"
+        android:theme="@style/ButtonWhite"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:onClick="startOperation"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:height="100sp"
+        android:layout_margin="1dp"
+        android:theme="@style/ButtonWhite"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:onClick="startOperation"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:height="100sp"
+            android:layout_margin="1dp"
+            android:theme="@style/ButtonWhite"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:onClick="startOperation"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:height="100sp"
+            android:layout_margin="1dp"
+            android:theme="@style/ButtonWhite"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:onClick="startOperation"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:layout_margin="30sp"
+        android:background="@drawable/button_outline"/>
+
+</LinearLayout>
